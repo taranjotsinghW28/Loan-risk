@@ -1,0 +1,32 @@
+# Create .gitignore file
+echo "# Python" > .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "*.pyo" >> .gitignore
+echo ".Python" >> .gitignore
+echo "" >> .gitignore
+echo "# Virtual Environment" >> .gitignore
+echo "venv/" >> .gitignore
+echo "env/" >> .gitignore
+echo "ENV/" >> .gitignore
+echo ".venv/" >> .gitignore
+echo "" >> .gitignore
+echo "# IDE" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "*.swp" >> .gitignore
+echo "" >> .gitignore
+echo "# Jupyter" >> .gitignore
+echo ".ipynb_checkpoints/" >> .gitignore
+echo "*.ipynb" >> .gitignore
+echo "" >> .gitignore
+echo "# MLflow" >> .gitignore
+echo "mlruns/" >> .gitignore
+echo "mlflow.db" >> .gitignore
+echo "" >> .gitignore
+echo "# OS" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
+echo "" >> .gitignore
+echo "# Logs" >> .gitignore
+echo "*.log" >> .gitignore
